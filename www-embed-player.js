@@ -1,19 +1,3 @@
-www-embed-player.js
-Details
-Activity
-EARLIER THIS YEAR
-
-You created and shared an item in
-Mar 6
-Google Drive Folder
-js
-Javascript
-www-embed-player.js
-Can view
-Anyone
-No recorded activity before March 6, 2016
-All selections cleared
-
 (function(){var g,aa=aa||{},m=this;function p(a){return void 0!==a}
 function q(a,b,c){a=a.split(".");c=c||m;a[0]in c||!c.execScript||c.execScript("var "+a[0]);for(var d;a.length&&(d=a.shift());)!a.length&&p(b)?c[d]=b:c[d]?c=c[d]:c=c[d]={}}
 function r(a,b){for(var c=a.split("."),d=b||m,e;e=c.shift();)if(null!=d[e])d=d[e];else return null;return d}
