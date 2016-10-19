@@ -1,0 +1,409 @@
+body {
+    margin:0px;
+}
+
+/* Buttons and Inputs */
+.small {
+    width:700px;
+}
+
+a.button {
+  display: inline-block;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  border-radius: 0px;
+  font-weight: bold;
+  color: #fff;
+    line-height:normal;
+  padding: 16px 26px;
+  background: solid;
+  background-color: #2E9DFF;
+  text-decoration: none;
+  opacity: 1;
+  -webkit-backface-visibility: hidden;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+a.button:hover {
+  border-color: #9ee3e6;
+}
+a.button.normal {
+  border-radius: 0px;
+}
+a.button.slider {
+  padding: 16px 35px;
+  letter-spacing: 2px;
+  border-radius: 0px;
+}
+a.button.slider:hover {
+  border-color: #ffffff;
+        background-color: #333;
+}
+
+/* Responsive Image */
+
+img.scale, img.responsive {
+	max-width: 95%;
+	height: auto;
+    text-align:center;
+    size:cover;
+}
+
+/*  SECTIONS  */
+
+.container {
+    text-align:center;
+    height:auto;
+    clear: both;
+    margin:0;
+}
+.section {
+    text-align:center;
+    clear: both;
+	padding-left: 20px;
+    padding-right: 20px;
+    margin:0;
+    border-top:solid;
+    border-top-color:#333;
+    background-color: #fff;
+    background-color: rgba(255,255,255,0.9);
+    height:auto;
+}
+
+.topbg {
+    position:relative;
+	text-align:center;
+    clear: both;
+	padding: 20px;
+	margin: 0px;
+}
+
+.about {
+    
+}
+
+.masthead{
+    height:100%;
+    background:url('http://abrahammyers.com/epk2/header_img1.jpg') no-repeat #000 center center;
+    overflow:scroll;
+    background-attachment:fixed;
+    background-position:50% -100;
+    background-size:cover;
+    text-align:center;
+    padding-top:70px;
+    padding-bottom:0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+	width: 100%;
+    padding:5px;
+}
+.span_2_of_3 {
+	width: 66.1%;
+    padding:5px;
+    background:solid;
+    background-color:#999;
+}
+.span_1_of_3 {
+	width: 32.2%;
+    padding:5px;
+}
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+    text-align:center;
+    margin: 0 auto;
+    width: 100%;
+    position:fixed;
+    bottom:0;
+    padding-bottom:20px;
+    background:solid;
+    background-color:#fff;
+}
+
+
+.span_1_of_2 {
+	width: 50%;
+    padding-bottom:10px;
+    padding-top:30px:
+}
+
+/* Abraham's Additions */
+
+.bg {
+    background:solid;
+    background-color:#333;
+    background-color: rgba(200,200,200,0.9);
+}
+
+.main {
+    text-align:left;
+    font-size:15px;   
+    font-family: "ubuntu";
+}
+
+h1 {
+   font-size:10pt;
+    color:#fff;
+    font-family: "ubuntu";
+}
+
+h2 {
+    margin:5px;
+    font-size: 2em;
+    color:#fff;
+}
+
+h3 {
+    margin:2px;
+    font-size: 24.5px;
+    text-align: center;
+    font-family: "chunk";
+}
+
+.press {
+    text-align:left;
+    display: block;
+    padding-left: 10px;
+    font-size: 13px;
+    line-height: 14px;
+    border-left: 4px solid #666;
+    font-family: "ubuntu";
+}
+
+p.center {
+    text-align:center;
+    display: block;
+    padding-left: 10px;
+    font-size: 13px;
+    line-height: 14px;
+    border-left: 4px solid #666;
+    border-right: 4px solid #666;
+    font-family: "ubuntu";
+}
+
+p.lead {
+    text-align: right;
+    font-size:14px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #333;
+    font-family: "ubuntu";
+}
+a:link {
+    color: red;
+    text-decoration:none;
+}
+a:hover {
+    color: #333;
+    text-decoration:underline;
+}
+
+a:visited {
+    color: orange;
+}
+
+.social {
+    padding:20px;
+    text-align:center;    
+}
+
+.header {
+    width:100%;
+    height:55px;
+    position:fixed;
+    top:0;
+    background:solid;
+    background-color:#000;
+    border-bottom:solid;
+    border-bottom-color:#333;
+    text-align:center;
+    padding-top:5px;
+}
+
+.footer {
+    width:100%;
+    height:30px;
+    position:fixed;
+    bottom:0;
+    background:solid;
+    background-color:#000;
+    border-top:solid;
+    border-top-color:#333;
+    text-align:center;
+}
+
+.gallery {
+    text-align:center;
+    height:auto;
+    clear: both;
+	padding: 20px;
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:160px;
+    margin:0;
+}
+
+.img.border {
+    border:5px;
+    border-color:#fff;
+}
+
+
+/* Navigation */
+
+/*
+@media only screen and (max-width: 768px) {
+    
+    .col { 
+		margin: 1% 0 1% 0%;
+}
+    
+    .section {
+	   text-align:center;
+        clear: both;
+	   padding: 10px;
+	   margin: 0px;
+}
+    
+    .span_1_of_3 {
+        width: 100%;
+}
+    .span_2_of_3 {
+        width: 100%;
+}
+    .span3_of_3 {
+        width: 100%;
+}
+}
+
+*/
+
+
+
+@media only screen and (max-width: 1175px) {
+	
+    .main {
+        font-size:13px;
+}
+
+    .social {
+        padding-left:20px;
+        padding-right:20px;
+        text-align:center;    
+}
+
+    .resize {
+        height:40px;
+        width:40px;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 768 PIXELS */
+
+@media only screen and (max-width: 768px) {
+
+    .col { 
+		margin: 1% 0 1% 0%;
+    }
+
+    .gallery{
+        padding-left:2%;
+        padding-right:2%;
+    }
+
+    .section {
+        text-align:center;
+        clear: both;
+        padding: 10px;
+        margin: 0px;
+    }
+    
+    .spacer {
+        height:160px;
+    }
+
+    .social {
+        padding-bottom:0px;
+        padding-left:20px;
+        padding-right:20px;
+        width: 92%;
+    }
+  
+    .span_3_of_3 {
+		width: 98%; 
+	}
+	.span_2_of_3 {
+		width: 98%; 
+	}
+	.span_1_of_3 {
+		width: 98%;
+	}
+    
+    .resize {
+        height:50px;
+        width:50px;
+    }
+
+    .span_1_of_2 {
+        width: 98%;
+
+}
+
+    .masthead{
+        height:auto;
+        background-size:cover;
+        background-position:50% -100;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .small {
+        width:100%;
+    }
+
+@media only screen and (max-width: 480px) {
+    .small {
+        width:100%;
+    }
+    .masthead{
+        height:auto;
+        background-size:cover;
+        background-position:50% -100;
+    }
+    .social {
+        padding-top:5px;
+        padding-bottom:5px;
+        width: 90%;
+}
+    .resize {
+        width:35px;
+        height:35px;
+        
+}
+
+}
